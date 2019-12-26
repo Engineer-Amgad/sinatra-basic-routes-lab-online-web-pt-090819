@@ -8,7 +8,7 @@ class App < Sinatra::Base
   get '/name' do
     @name = "My name is __"
     status 200
-    erb :"'My name is __'/index.html.erb"
+    # erb :'name/index.html.erb'
   end
   
   get '/hometown' do
